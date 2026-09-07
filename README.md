@@ -45,6 +45,8 @@ Documentar
 
 # Ruta del HomeLab
 
+## Ruta del HomeLab
+
 La construcción del laboratorio está organizada en las siguientes fases:
 
 | Fase | Tema                | Estado       |
@@ -52,9 +54,9 @@ La construcción del laboratorio está organizada en las siguientes fases:
 | 0    | Planificación       | ✅ Completada |
 | 1    | Preparación física  | ✅ Completada |
 | 2    | Proxmox             | ✅ Completada |
-| 3    | Primera VM Linux    | ⏭️ Siguiente |
-| 4    | Backups y snapshots | ⬜ Pendiente  |
-| 5    | Docker              | ⬜ Pendiente  |
+| 3    | Primera VM Linux    | ✅ Completada |
+| 4    | Backups y snapshots | ✅ Completada |
+| 5    | Docker              | ⏭️ Siguiente |
 | 6    | Raspberry Pi        | ⬜ Pendiente  |
 | 7    | Networking virtual  | ⬜ Pendiente  |
 | 8    | Firewall            | ⬜ Pendiente  |
@@ -64,11 +66,9 @@ La construcción del laboratorio está organizada en las siguientes fases:
 | 12   | Automatización      | ⬜ Pendiente  |
 | 13   | Redes en Contexto   | ⬜ Pendiente  |
 
----
-
 ## Estado actual
 
-Actualmente se encuentran completadas técnicamente:
+Actualmente se encuentran completadas:
 
 ```text
 Fase 0 — Planificación
@@ -78,11 +78,16 @@ Fase 1 — Preparación física
 Fase 2 — Proxmox
         ↓
 Fase 3 — Primera VM Linux
+        ↓
+Fase 4 — Backups y snapshots
+        ↓
+Fase 5 — Docker
              ↑
-         SIGUIENTE
+          SIGUIENTE
 ```
 
-Antes de continuar con la Fase 3 se está reconstruyendo de forma retrospectiva la documentación correspondiente a las fases ya realizadas.
+El HomeLab dispone actualmente de un nodo Proxmox operativo, una primera máquina virtual Ubuntu Server funcional y mecanismos básicos de snapshot, backup y recuperación verificados.
+
 
 ---
 
